@@ -2,6 +2,13 @@ import streamlit as st
 from prediction_helper import predict
 import time
 
+st.set_page_config(
+    page_title="Health Insurance Premium Prediction",
+    page_icon="🏥",
+    layout="centered",
+    initial_sidebar_state="expanded",
+)
+
 # Add custom CSS for styling
 st.markdown("""
     <style>
